@@ -157,24 +157,26 @@ p{
     margin-left: -50px;
     margin-top: 20px;
 }
-.slider-frame{
-    width: 867px;
+.slider-frame {
+    width: 600px;
     height: auto;
-    margin: 50px auto 50px 50px;
+    margin: 50px auto 50px;
     overflow: hidden;
-    
+}
+.slider-frame ul {
     display: flex;
-    flex-direction: row;
-    background-color: #063d5e;
-    justify-content: space-between;
-    align-items: center;
+    padding: 0;
+    width: 300%;
+    animation: slide 12s infinite alternate ease-in-out;
 }
 .slider-frame img{
     width: 100%;
 }
-.slider_animation-frame{
-    animation: slide 12s infinite alternate ease-in-out;
+.slider-frame li {
+    list-style: none;
+    width: 100%;
 }
+
 @keyframes slide {
     0% {margin-left: 0%;}
     30% {margin-left: 0%;}
