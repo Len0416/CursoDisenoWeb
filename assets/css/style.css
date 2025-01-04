@@ -1,0 +1,187 @@
+*{
+    margin: 0px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.header{
+    background-color: #0B3D4B;
+    Height: 70px;
+    width: 100%;
+    border-top: 4px groove white;
+    border-bottom: 4px groove white;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    color: white;
+    margin: 0px;
+}
+.navegador{
+    background-color: #0B3D4B;
+    Height: 70px;
+    width: 100%;
+    border-top: 4px groove white;
+    border-bottom: 4px groove white;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    color: white;
+    position: fixed;
+    margin: 0px;
+}
+.Button_shop{
+    background-color: darkslategray;
+    color:white;
+    border: white solid 2px;
+}
+.Button_orders{
+    background-color: darkslategray;
+    color:white;
+    border: white solid 2px;
+}
+.Button_nav_buys{
+    background-color: darkslategray;
+    color:white;
+    border: white solid 2px;
+}
+a{
+
+    color: white;
+    margin-left: 50px;
+    font-size: 15px;
+    background-color: #0B3D4B;
+    border: 5px groove #339999;
+    border-radius: 15%;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+p{
+    font-size: 18px;
+    margin-left: 15px;
+}
+#search{
+    position: relative;
+    bottom: 30px;
+    margin: 25px;
+    width: 35%;
+}
+.porfile{
+    margin-left: 5px;
+    width: 70px;
+    height: 70px;
+}
+.seccion-informacion-productos{
+    width: 400px;
+    height: 150px;
+    padding: 4px;
+    font-size: 26px;
+    border: lightgrey solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    margin-top: 100px;
+}
+.llavero{
+    width: 120px;
+    height: 120px;
+    border: lightgray solid 2px;
+    border-radius: 5%;
+}
+.conjunto-secciones-informacion-productos{
+    display: flex;
+    justify-content: center;
+}
+.image_front_page{
+    width: 95%;
+    height: 600px;
+    border: 2px solid gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productos{
+    display: flex;
+    justify-content: center;
+}
+.producto{
+    width: 80%;
+    height: 240px;
+    margin: 50px;
+}
+.contenedor_producto-informacion{
+    width: 90%;
+    height: 300px;
+    font-size: 26px;
+    border: lightgrey solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop_section{
+    border: #063d5e solid 4px;
+    width: 550px;
+    height: 350px;
+    margin: 30px;
+    display: inline-block;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#shop{
+    border-top: gray 2px solid;
+    border-bottom: gray 2px solid;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+}
+.llavero1{
+    width: 225px;
+    height: 225px;
+    border-radius: 5%;
+}
+.price{
+    font-size: 32px;
+}
+#user{
+    display: inline-flex;
+    color: black;
+    font-size: 16px;
+    position: absolute;
+    margin-bottom: -40px;
+    margin-left: 40px;
+}
+#user p {
+    color: white;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 20px;
+}
+.slider-frame{
+    width: 1000px;
+    height: 500px;
+    margin: 50px auto 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    background-color: #063d5e;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.slider-frame img{
+    width: 75%;
+}
+.slider_animation-frame{
+    animation: slide 12s infinite alternate ease-in-out;
+}
+@keyframes slide {
+    0% {margin-left: 0%;}
+    30% {margin-left: 0%;}
+
+    35% {margin-left: -100%;}
+    65% {margin-left: -100%;}
+
+    70% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+
+}
