@@ -25,6 +25,44 @@
     color: white;
     margin: 0px;
 }
+.header_shop{
+    Height: 570px ;
+    width: 100%;
+    background-image: url(/assets/images/productos2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.header_shop h1{
+    font-size: 90px;
+    font-family: "Poppins", serif;
+    color: white;
+}
+.header_shop p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+}
+.detalles{
+    padding-right: 30px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detalles p{
+    font-size: 15px;
+    margin: 2px;
+}
+.caracteristicas_detalles{
+    width: 100px;
+    display: flex;
+    justify-items:left;
+}
 .navegador{
     background-color: #0B3D4B;
     Height: 70px;
@@ -64,6 +102,10 @@
     background-color: darkslategray;
     color:white;
     border: white solid 2px;
+}
+.Buttons_Product-shop{
+    display: flex;
+    justify-content: flex-start;
 }
 a{
     height: 30px;
@@ -143,6 +185,44 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.content_product-information1{
+    color: #0B3D4B;
+    background-color: white;
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    padding: 8px;
+    border: gray groove 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.content_product-information1 span>img{
+    position: absolute;
+    right: 38%;
+    top: 90%;
+    width: 10%;
+    height: 35%;
+}
+.content_product-information2{
+    color: #0B3D4B;
+    background-color: white;
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    padding: 8px;
+    border: gray groove 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.content_product-information2 span>img{
+    position: absolute;
+    right: 38%;
+    top: 118%;
+    width: 12%;
+    height: 18%;
 }
 .shop_section{
     border: #063d5e solid 4px;
