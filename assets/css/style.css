@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Lexend:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0px;
+}
+.body_login{
+    margin: 0px;
+    background-image: url(/assets/images/fondo.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
 }
 .logo{
     width: 70px;
@@ -15,6 +25,45 @@
     color: white;
     margin: 0px;
 }
+.header_shop{
+    Height: 570px ;
+    width: 100%;
+    background-image: url(/assets/images/productos2.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.header_shop h1{
+    font-size: 90px;
+    font-family: "Poppins", serif;
+    color: white;
+}
+.header_shop p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", serif;
+    margin-bottom: 10px;
+}
+.detalles{
+    padding-right: 30px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detalles p{
+    font-size: 15px;
+    margin: 2px;
+}
+.caracteristicas_detalles{
+    width: 100px;
+    display: flex;
+    justify-items:left;
+}
 .navegador{
     background-color: #0B3D4B;
     Height: 70px;
@@ -26,28 +75,46 @@
     position: fixed;
     margin: 0px;
 }
-.Button_shop{
+#Button_shop{
     background-color: darkslategray;
     color:white;
     border: white solid 2px;
 }
-.Button_orders{
+#Button_orders{
     background-color: darkslategray;
     color:white;
     border: white solid 2px;
 }
-.Button_nav_buys{
+#Button_nav_buys{
     background-color: darkslategray;
     color:white;
     border: white solid 2px;
+}
+#Button_login{
+    margin-left: 5px;
+    background-color: darkslategray;
+    color:white;
+    border: white solid 2px;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+#Button_start{
+    background-color: darkslategray;
+    color:white;
+    border: white solid 2px;
+}
+.Buttons_Product-shop{
+    display: flex;
+    justify-content: flex-start;
 }
 a{
-
+    height: 30px;
     color: white;
     margin-left: 50px;
     font-size: 15px;
-    background-color: #0B3D4B;
-    border: 5px groove #339999;
+    background-color: darkslategray;
+    border: 2px solid white;
     border-radius: 15%;
     padding-left: 8px;
     padding-right: 8px;
@@ -75,6 +142,8 @@ p{
     height: 150px;
     padding: 4px;
     font-size: 26px;
+    color: white;
+    background-color: #0B3D4B;
     border: lightgrey solid 3px;
     display: flex;
     justify-content: center;
@@ -118,6 +187,38 @@ p{
     justify-content: center;
     align-items: center;
 }
+.content_product-information1{
+    color: #0B3D4B;
+    background-color: white;
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    padding: 8px;
+    border: gray groove 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.content_product-information1 span>img{
+    width: 20%;
+    height: 70%;
+}
+.content_product-information2{
+    color: #0B3D4B;
+    background-color: white;
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    padding: 8px;
+    border: gray groove 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.content_product-information2 span>img{
+    width: 24%;
+    height: 36%;
+}
 .shop_section{
     border: #063d5e solid 4px;
     width: 550px;
@@ -143,6 +244,17 @@ p{
 .price{
     font-size: 32px;
 }
+.portada{
+    display: flexbox;
+    align-items: stretch;
+    width: 20%;
+}
+#Login{
+    margin: 22px;
+}
+#Password{
+    margin: 22px;
+}
 #user{
     display: inline-flex;
     color: black;
@@ -156,6 +268,24 @@ p{
     position: absolute;
     margin-left: -50px;
     margin-top: 20px;
+}
+.resgistro_usuario{
+    width: 350px;
+    height:  350px;
+    background-color: #0B3D4B;
+    color: white;
+    font-family: "Poppins", serif;
+    text-align: center;
+    border-radius: 20%;
+    border: 2px groove white;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 30px;
+    position: absolute;
+    right: 20%;
+    bottom: 8%;
 }
 .slider-frame {
     width: 600px;
