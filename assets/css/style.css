@@ -85,7 +85,17 @@
     color:white;
     border: white solid 2px;
 }
-#Button_nav_buys{
+
+#Button_login{
+    margin-left: 5px;
+    background-color: darkslategray;
+    color:white;
+    border: white solid 2px;
+    position: absolute;
+    top: 20px;
+    left: 80px;
+}
+#Button_start{
     background-color: darkslategray;
     color:white;
     border: white solid 2px;
