@@ -44,6 +44,7 @@
     font-size: 30px;
     font-weight: 600;
     font-family: "Poppins", serif;
+    margin-bottom: 10px;
 }
 .detalles{
     padding-right: 30px;
@@ -199,11 +200,8 @@ p{
     flex-direction: column;
 }
 .content_product-information1 span>img{
-    position: absolute;
-    right: 38%;
-    top: 90%;
-    width: 10%;
-    height: 35%;
+    width: 20%;
+    height: 70%;
 }
 .content_product-information2{
     color: #0B3D4B;
@@ -218,11 +216,8 @@ p{
     flex-direction: column;
 }
 .content_product-information2 span>img{
-    position: absolute;
-    right: 38%;
-    top: 118%;
-    width: 12%;
-    height: 18%;
+    width: 24%;
+    height: 36%;
 }
 .shop_section{
     border: #063d5e solid 4px;
