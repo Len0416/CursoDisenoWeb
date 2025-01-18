@@ -65,7 +65,7 @@
     justify-items:left;
 }
 .navegador{
-    background-color: #0B3D4B;
+    background-color: #0b3d4b;
     Height: 70px;
     width: 100%;
     border-top: 4px groove white;
@@ -74,6 +74,10 @@
     color: white;
     position: fixed;
     margin: 0px;
+}
+.contacts{
+    color:white;
+    background-color: #04373b;
 }
 #Button_shop{
     background-color: darkslategray;
@@ -231,25 +235,29 @@ p{
 }
 .shop_section{
     border: #063d5e solid 4px;
-    width: 550px;
-    height: 350px;
+    border-radius: 15%;
+    width: 600px;
+    height: 400px;
     margin: 30px;
+    padding: 15px;
     display: inline-block;
     background-color: white;
     justify-content: center;
     align-items: center;
 }
 #shop{
-    border-top: gray 2px solid;
-    border-bottom: gray 2px solid;
-    background-color: rgb(241, 241, 241);
+    border-top: #063d5e 2px solid;
+    border-bottom: #063d5e 2px solid;
+    background-color: #0B3D3B;
     display: flex;
     justify-content: center;
 }
 .llavero1{
-    width: 225px;
-    height: 225px;
-    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 .price{
     font-size: 32px;
